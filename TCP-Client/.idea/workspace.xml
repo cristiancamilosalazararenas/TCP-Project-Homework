@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7c76acd-68de-4ab4-9e7e-58ee1188fc63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/AbstractInfoExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVDiagnosticoExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVPacienteExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/FastaVirusExport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/IInfoExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/NameProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/NameProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/common/PropertiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/common/PropertiesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/network/SSLTCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/network/SSLTCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/network/TCPConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/network/TCPConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "manejoArchivos",
+    "git-widget-placeholder": "Merging main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",

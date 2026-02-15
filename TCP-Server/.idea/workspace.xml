@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c8b6e70-524c-4c74-938a-b3cfbe1ccbe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/AbstractInfoExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/CSVDiagnosticoExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/CSVPacienteExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/FastaVirusExport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/IInfoExporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/NameProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/NameProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/common/PropertiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/common/PropertiesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/network/TCPConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/network/TCPConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +42,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "manejoArchivos",
+    "git-widget-placeholder": "Merging main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/camil/IdeaProjects/TCP-Project-Homework/TCP-Server",
@@ -62,10 +62,31 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cristian.Main" />
+      <module name="TCP-Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cristian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,10 +104,15 @@
       <updated>1771126267159</updated>
       <workItem from="1771126268470" duration="2308000" />
       <workItem from="1771130955068" duration="408000" />
+      <workItem from="1771168642592" duration="19241000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
