@@ -20,7 +20,7 @@ public class TCPServer implements INetworkService{
     @Override
     public void start() {
         try(ServerSocket serverSocket = new ServerSocket(tcpConfig.getPort())){
-            System.out.println("[Sever] Escuchando en el puerto: "+tcpConfig.getPort());
+            System.out.println("[Server] Escuchando en el puerto: "+tcpConfig.getPort());
             while (true){
                 try(Socket clientSocket = serverSocket.accept();
                     DataInputStream in = new DataInputStream(clientSocket.getInputStream());
