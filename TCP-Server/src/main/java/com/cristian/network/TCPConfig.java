@@ -3,11 +3,13 @@ package com.cristian.network;
 import com.cristian.common.IConfigReader;
 
 public class TCPConfig implements ISSLConfig{
+
     private final IConfigReader configReader;
 
     public TCPConfig(IConfigReader configReader){
         this.configReader = configReader;
     }
+
     @Override
     public int getPort() {
         return configReader.getInt("server.port");
