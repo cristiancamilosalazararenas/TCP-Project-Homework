@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c8b6e70-524c-4c74-938a-b3cfbe1ccbe3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/FastaDiagnosticoGenetico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/common/PropertiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/common/PropertiesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/network/TCPConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/network/TCPConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/CSVDiagnosticoExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/CSVDiagnosticoExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/CSVPacienteExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/CSVPacienteExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/FastaVirusExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/FastaRegistroVirusExport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/NameProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/NameProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/camil/IdeaProjects/TCP-Project-Homework/TCP-Server",
