@@ -1,6 +1,6 @@
 package com.cristian.business;
 
-public class CSVDiagnosticoExporter extends AbstractInfoExporter {
+public class CSVDiagnosticoGeneticoExporter extends AbstractInfoExporter {
     @Override
     protected void validate(String[] parts) {
         if (parts.length !=  4) {
@@ -15,6 +15,6 @@ public class CSVDiagnosticoExporter extends AbstractInfoExporter {
 
     @Override
     protected String getFileName() {
-        return "diagnostico.csv";
+        return "diagnosticoGenetico.csv";
     }
 }
