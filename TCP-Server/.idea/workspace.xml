@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c8b6e70-524c-4c74-938a-b3cfbe1ccbe3" name="Changes" comment="Merge branch 'main' of https://github.com/cristiancamilosalazararenas/TCP-Project-Homework&#10;&#10;# Conflicts:&#10;#&#9;TCP-Server/.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/PatientCSVWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/PatientDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Client/src/main/java/com/cristian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/src/main/java/com/cristian/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Client/src/main/resources/my_clave.p12" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/src/main/resources/mi_clave.p12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/VirusFastaWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/VirusFastaWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my_clave.p12" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mi_clave.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/RegisterPatientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/RegisterPatientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/RegisterVirusHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/RegisterVirusHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/RequestHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/RequestHandlerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1771374287855" duration="11000" />
       <workItem from="1771376584105" duration="18589000" />
       <workItem from="1771398619856" duration="77000" />
-      <workItem from="1771437888465" duration="4921000" />
+      <workItem from="1771437888465" duration="8514000" />
     </task>
     <servers />
   </component>

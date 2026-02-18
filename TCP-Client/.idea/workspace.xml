@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7c76acd-68de-4ab4-9e7e-58ee1188fc63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/PatientCSVWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/PatientDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my_clave.p12" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mi_clave.p12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/VirusFastaWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/VirusFastaWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/network/SSLTCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/network/SSLTCPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/resources/my_clave.p12" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/resources/mi_clave.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterPatientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterPatientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterVirusHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterVirusHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestHandlerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,7 @@
       <workItem from="1771396396849" duration="12000" />
       <workItem from="1771396488934" duration="1341000" />
       <workItem from="1771398698620" duration="89000" />
-      <workItem from="1771437671877" duration="4344000" />
+      <workItem from="1771437671877" duration="6841000" />
     </task>
     <servers />
   </component>

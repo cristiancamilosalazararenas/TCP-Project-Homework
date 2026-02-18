@@ -7,8 +7,8 @@ public class RegisterVirusHandler implements IRequestHandler {
         if (parts.length != 4) {
             return "Este tipo de solicitud requiere de 4 secciones...";
         }
-        VirusFastaWriter escritorFastaVirus = new VirusFastaWriter();
-        VirusDAO virusDAO = new VirusDAO(parts[1], parts[2], parts[3], escritorFastaVirus);
+        VirusFastaWriter virusFastaWriter = new VirusFastaWriter();
+        VirusDAO virusDAO = new VirusDAO(parts[1], parts[2], parts[3], virusFastaWriter);
         return virusDAO.register();
     }
 
