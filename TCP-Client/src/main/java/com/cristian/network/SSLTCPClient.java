@@ -51,7 +51,7 @@ public class SSLTCPClient implements IMessageService{
             System.out.println("[TCP] Error critico %s".formatted(e.getMessage()));
             return "ERROR_COMUNICACION";
         } catch (Exception e) {
-            System.err.println("[TCP] Errpr critico del sistema: "+e.getMessage());
+            System.err.println("[TCP] Error critico del sistema: "+e.getMessage());
             return "ERROR_CRITICO";
         }
     }

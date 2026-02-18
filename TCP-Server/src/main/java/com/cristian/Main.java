@@ -1,7 +1,7 @@
 package com.cristian;
 
 import com.cristian.business.IMessageProcessor;
-import com.cristian.business.NameProcessor;
+import com.cristian.business.RequestProcessor;
 import com.cristian.common.IConfigReader;
 import com.cristian.common.PropertiesManager;
 import com.cristian.network.INetworkService;
@@ -13,7 +13,7 @@ public class Main {
     static void main() {
         IConfigReader reader = new PropertiesManager("application.properties");
         ISSLConfig tcpConfig = new TCPConfig(reader);
-        IMessageProcessor processor = new NameProcessor();
+        IMessageProcessor processor = new RequestProcessor();
         INetworkService server = new SSLTCPServer(tcpConfig, processor);
         server.start();
     }

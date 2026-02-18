@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8b6e70-524c-4c74-938a-b3cfbe1ccbe3" name="Changes" comment="">
+    <list default="true" id="5c8b6e70-524c-4c74-938a-b3cfbe1ccbe3" name="Changes" comment="Merge branch 'main' of https://github.com/cristiancamilosalazararenas/TCP-Project-Homework&#10;&#10;# Conflicts:&#10;#&#9;TCP-Server/.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/../TCP-Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/HighRiskReportHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/IRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/MutationReportHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/ProcessSampleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/RegisterPatientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/RegisterVirusHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/RequestHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/RequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/ValidatePatientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Client/src/main/java/com/cristian/network/SSLTCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Client/src/main/java/com/cristian/network/SSLTCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/NameProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/business/NameProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/NameProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/business/SimpleMessageProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/network/SSLTCPServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +117,8 @@
       <workItem from="1771126268470" duration="2308000" />
       <workItem from="1771130955068" duration="408000" />
       <workItem from="1771168642592" duration="19241000" />
+      <workItem from="1771374287855" duration="11000" />
+      <workItem from="1771376584105" duration="13185000" />
     </task>
     <servers />
   </component>

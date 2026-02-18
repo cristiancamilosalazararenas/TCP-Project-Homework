@@ -18,6 +18,7 @@ public class SSLTCPServer implements INetworkService{
     private final ISSLConfig sslConfig;
     private final IMessageProcessor processor;
 
+
     public SSLTCPServer(ISSLConfig sslConfig, IMessageProcessor processor){
         this.sslConfig = sslConfig;
         this.processor = processor;
