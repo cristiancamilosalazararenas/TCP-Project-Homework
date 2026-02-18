@@ -1,17 +1,18 @@
 package com.cristian;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+import com.cristian.common.IConfigReader;
+import com.cristian.common.PropertiesManager;
+import com.cristian.network.IMessageService;
+import com.cristian.network.ISSLConfig;
+import com.cristian.network.SSLTCPClient;
+import com.cristian.network.TCPConfig;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
-        }
+public class Main {
+    static void main(String[] args) {
+        IConfigReader reader = new PropertiesManager("application.properties");
+        ISSLConfig tcpConfig = new TCPConfig(reader);
+        IMessageService client = new SSLTCPClient(tcpConfig);
+        String response = client.sendMessage("Camila:Cortes");
+        System.out.println("Respuesta: %s".formatted(response));
     }
 }
