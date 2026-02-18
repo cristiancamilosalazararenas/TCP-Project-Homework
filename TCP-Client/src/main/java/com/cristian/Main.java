@@ -12,7 +12,7 @@ public class Main {
         IConfigReader reader = new PropertiesManager("application.properties");
         ISSLConfig tcpConfig = new TCPConfig(reader);
         IMessageService client = new SSLTCPClient(tcpConfig);
-        String response = client.sendMessage("Camila:Cortes");
+        String response = client.sendMessage("REGISTER_VIRUS#covid_19#altamente_infeccioso#ATCGAAAATCGGG");
         System.out.println("Respuesta: %s".formatted(response));
     }
 }

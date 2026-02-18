@@ -7,11 +7,11 @@ import java.io.IOException;
 public class VirusFastaWriter {
 
     public String writeFasta(String virusRegistry, String fileName){
-        File virusFolder = new File("TCP-Server/virus");
+        File virusFolder = new File("virus");
         if (!virusFolder.exists()) {
             virusFolder.mkdirs();
         }
-        try(FileWriter writer = new FileWriter("TCP-Server/virus/"+fileName)){
+        try(FileWriter writer = new FileWriter("virus/"+fileName)){
             writer.write(virusRegistry);
             return "Virus registrado exitosamente.";
         } catch (IOException e){

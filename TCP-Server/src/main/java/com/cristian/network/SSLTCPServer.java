@@ -32,7 +32,7 @@ public class SSLTCPServer implements INetworkService{
         KeyStore ks = KeyStore.getInstance("PKCS12");
         try(InputStream is = getClass().getClassLoader().getResourceAsStream(sslConfig.getKeyStorePath())){
             if(is == null){
-                throw new IOException("[Error] No se encontró el archivo de keystore.");
+                throw new IOException("No se encontró el archivo de keystore");
             }
             ks.load(is, password);
             KeyManagerFactory kmf = KeyManagerFactory.getInstance(KeyManagerFactory.getDefaultAlgorithm());
