@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Respuesta: %s".formatted(response));
 
 
-        response = client.sendMessage("GENETIC_DIAGNOSIS#1054863872#25/01/2026#ATGTTGC");
+        response = client.sendMessage("GENETIC_DIAGNOSIS#1054863872#25-01-2026#ATGTTGC");
         System.out.println("Respuesta: %s".formatted(response));
 
     }

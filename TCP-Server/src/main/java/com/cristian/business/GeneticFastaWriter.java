@@ -5,18 +5,19 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class GeneticFastaWriter {
+
     public String write(String documento, String fecha, String adn) {
-
-        File folder = new File("diagnosticos");
-        if (!folder.exists()) {
-            folder.mkdirs();
+        File patientFolder = new File("diagnosticos/" + documento);
+        if (!patientFolder.exists()) {
+            patientFolder.mkdirs();
         }
-
-        try (FileWriter writer = new FileWriter("diagnosticos/diagnosticos.fasta", true)) {
+        File fastaFile = new File(patientFolder, fecha + ".fasta");
+        try (FileWriter writer = new FileWriter(fastaFile)) {
             writer.write(">" + documento + "|" + fecha + "\n");
             writer.write(adn + "\n");
             return "[OK] Diagnóstico genético almacenado";
         } catch (IOException e) {
+            e.printStackTrace();
             return "[ERROR] No se pudo guardar el diagnóstico";
         }
     }

@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7c76acd-68de-4ab4-9e7e-58ee1188fc63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TCP-Server/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/GeneticFastaWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cristian/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/ProcessSampleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/ProcessSampleHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestHandlerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/diagnosticos/diagnosticos.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/patients/patients.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/patients/patients.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/GeneticFastaWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/GeneticFastaWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +115,7 @@
       <workItem from="1771396488934" duration="1341000" />
       <workItem from="1771398698620" duration="89000" />
       <workItem from="1771437671877" duration="6841000" />
-      <workItem from="1771447809454" duration="5642000" />
+      <workItem from="1771447809454" duration="6634000" />
     </task>
     <servers />
   </component>
