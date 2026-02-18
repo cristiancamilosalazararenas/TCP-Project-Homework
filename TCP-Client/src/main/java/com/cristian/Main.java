@@ -20,5 +20,10 @@ public class Main {
         System.out.println("Respuesta: %s".formatted(response));
         response = client.sendMessage("REGISTER_VIRUS#Covid19#altamente_infeccioso#ATCGAAAATCAAA");
         System.out.println("Respuesta: %s".formatted(response));
+
+
+        response = client.sendMessage("GENETIC_DIAGNOSIS#1054863872#25/01/2026#ATGTTGC");
+        System.out.println("Respuesta: %s".formatted(response));
+
     }
 }
