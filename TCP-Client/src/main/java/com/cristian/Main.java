@@ -7,23 +7,56 @@ import com.cristian.network.ISSLConfig;
 import com.cristian.network.SSLTCPClient;
 import com.cristian.network.TCPConfig;
 
+import java.util.Scanner;
+
 public class Main {
     static void main(String[] args) {
         IConfigReader reader = new PropertiesManager("application.properties");
         ISSLConfig tcpConfig = new TCPConfig(reader);
         IMessageService client = new SSLTCPClient(tcpConfig);
-        String response = client.sendMessage("REGISTER_PATIENT#123456789#Camila#Prada#19#camilaprada@gmail.com#Femenino#Manizales#Colombia");
-        System.out.println("Respuesta: %s".formatted(response));
-        response = client.sendMessage("REGISTER_PATIENT#1007235021#Cristian#Salazar#25#cristianc.salazara@autonoma.edu.co#Masculino#Manizales#Colombia");
-        System.out.println("Respuesta: %s".formatted(response));
-        response = client.sendMessage("REGISTER_VIRUS#H1N1#altamente_infeccioso#ATCGAAAATCGGG");
-        System.out.println("Respuesta: %s".formatted(response));
-        response = client.sendMessage("REGISTER_VIRUS#Covid19#altamente_infeccioso#ATCGAAAATCAAA");
-        System.out.println("Respuesta: %s".formatted(response));
 
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("\n===== MENU =====");
+            System.out.println("1. Registrar paciente");
+            System.out.println("2. Registrar virus");
+            System.out.println("3. Diagnóstico genético");
+            System.out.println("4. Salir");
+            System.out.print("Seleccione opción: ");
 
-        response = client.sendMessage("GENETIC_DIAGNOSIS#1054863872#25-01-2026#ATGTTGC");
-        System.out.println("Respuesta: %s".formatted(response));
+            String option = scanner.nextLine();
+
+            switch (option) {
+
+                case "1":
+                    System.out.println("\nFormato esperado:");
+                    System.out.println("REGISTER_PATIENT#id#Nombre#Apellido#Edad#Correo#Genero#Ciudad");
+                    break;
+
+                case "2":
+                    System.out.println("\nFormato esperado:");
+                    System.out.println("REGISTER_VIRUS#Nombre#Tipo#Secuencia");
+                    break;
+
+                case "3":
+                    System.out.println("\nFormato esperado:");
+                    System.out.println("GENETIC_DIAGNOSIS#idPaciente#fecha#secuencia");
+                    break;
+
+                case "4":
+                    System.out.println("Saliendo...");
+                    scanner.close();
+                    return;
+
+                default:
+                    System.out.println("Opción inválida");
+                    continue;
+            }
+            System.out.print("\nEscriba el mensaje EXACTO a enviar: ");
+            String message = scanner.nextLine();
+            String response = client.sendMessage(message);
+            System.out.println("Respuesta: " + response);
+        }
 
     }
 }
