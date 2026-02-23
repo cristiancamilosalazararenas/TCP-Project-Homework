@@ -32,3 +32,7 @@ public class PropertiesManager implements IConfigReader{
         return Boolean.parseBoolean(props.getProperty(key));
     }
 }
+
+
+
+

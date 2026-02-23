@@ -1,0 +1,7 @@
+virus,posicion_inicio,posicion_fin
+Covid19|altamente_infeccioso,1,4
+Covid19|altamente_infeccioso,2,5
+H1N1|altamente_infeccioso,1,4
+H1N1|altamente_infeccioso,2,5
+H1N1|altamente_infeccioso,8,11
+Peste|altamente_infeccioso,2,5

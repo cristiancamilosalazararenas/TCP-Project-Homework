@@ -9,7 +9,7 @@ import java.io.IOException;
  * Cada muestra se guarda dentro de una carpeta identificada con el documento
  * del paciente, siguiendo la estructura:
  *
- * pacientes/{documento}/muestra_{fecha}.fasta
+ * pacientesDiagnotico/{documento}/muestra_{fecha}.fasta
  * El archivo generado contiene un encabezado FASTA con el formato:
  *
  * >documento|fecha
@@ -30,7 +30,7 @@ public class GeneticFastaWriter {
          *             <li>"ERROR#mensaje" si ocurrió un fallo</li>
          *         </ul>
          */
-        File patientFolder = new File("pacientesDiagnlstico/" + documento);
+        File patientFolder = new File("pacientesDiagnotico/" + documento);
         if (!patientFolder.exists()) {
             patientFolder.mkdirs();
         }

@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/GeneticFastaWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/GeneticFastaWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/HighRiskReportHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/HighRiskReportHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <workItem from="1771447809454" duration="7426000" />
       <workItem from="1771463480807" duration="4730000" />
       <workItem from="1771637537383" duration="592000" />
-      <workItem from="1771739853173" duration="19360000" />
+      <workItem from="1771739853173" duration="20413000" />
     </task>
     <servers />
   </component>
