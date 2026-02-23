@@ -1,5 +1,11 @@
 package com.cristian.business;
-
+/**
+ * Clase que representa el acceso y manejo de datos de un paciente.
+ * <p>
+ * Esta clase encapsula la información de un paciente y delega la persistencia
+ * de los datos a un componente {@code PatientCSVWriter}, siguiendo el principio
+ * de separación de responsabilidades.
+ */
 public class PatientDAO {
 
     private String idNumber;
@@ -92,10 +98,17 @@ public class PatientDAO {
         return patientCSVWriter;
     }
 
+    /** @param patientCSVWriter nuevo escritor de persistencia */
     public void setPatientCSVWriter(PatientCSVWriter patientCSVWriter) {
+
         this.patientCSVWriter = patientCSVWriter;
     }
-
+    /**
+     * Registra al paciente construyendo una línea CSV con sus datos
+     * y delegando el almacenamiento al {@code PatientCSVWriter}.
+     *
+     * @return resultado de la operación de escritura
+     */
     public String register(){
         StringBuilder sb = new StringBuilder();
         sb.append(this.idNumber).append(",").append(this.name).append(",")

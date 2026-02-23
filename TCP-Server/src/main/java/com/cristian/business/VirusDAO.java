@@ -1,5 +1,14 @@
 package com.cristian.business;
-
+/**
+ * Clase que representa el acceso y manejo de datos de un virus.
+ * <p>
+ * Esta clase encapsula la información de un virus y delega la persistencia
+ * de los datos al componente {@link VirusFastaWriter}, siguiendo el principio
+ * de separación de responsabilidades.
+ * <p>
+ * Su función principal es estructurar los datos en formato FASTA y solicitar
+ * su almacenamiento.
+ */
 public class VirusDAO {
 
     private String name;
