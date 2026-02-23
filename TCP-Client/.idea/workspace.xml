@@ -7,24 +7,8 @@
     <list default="true" id="e7c76acd-68de-4ab4-9e7e-58ee1188fc63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/AbstractInfoExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/AbstractInfoExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVDiagnosticoGeneticoExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVDiagnosticoGeneticoExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVDiagnosticoWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVDiagnosticoWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVPacienteExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/CSVPatientExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/FastaRegistroVirusExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/FASTARegistryVirusExport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/GeneticFastaWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/GeneticFastaWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/IInfoExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/IInfoExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/IMessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/IMessageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/IRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/IRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/MutationReportHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/PatientCSVWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/PatientCSVWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/PatientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/PatientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/ProcessSampleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/ProcessSampleHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterPatientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterPatientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterVirusHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RegisterVirusHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestHandlerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/RequestProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/VirusDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/VirusDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/HighRiskReportHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/HighRiskReportHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/ProcessDiagnostic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP-Server/src/main/java/com/cristian/business/ProcessDiagnostic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +117,7 @@
       <workItem from="1771447809454" duration="7426000" />
       <workItem from="1771463480807" duration="4730000" />
       <workItem from="1771637537383" duration="592000" />
-      <workItem from="1771739853173" duration="18658000" />
+      <workItem from="1771739853173" duration="18688000" />
     </task>
     <servers />
   </component>

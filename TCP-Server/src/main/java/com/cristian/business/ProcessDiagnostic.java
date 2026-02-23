@@ -48,18 +48,16 @@ public class ProcessDiagnostic {
 
                 secuenciaPaciente = secuenciaPaciente.trim().toUpperCase();
                 secuenciaVirus = secuenciaVirus.trim().toUpperCase();
-                System.out.println("Virus: [" + secuenciaVirus + "]");
-                System.out.println("Paciente: [" + secuenciaPaciente + "]");
-                int minMatchLength = 3;
 
-                for (int i = 0; i <= secuenciaVirus.length() - minMatchLength; i++) {
-                    for (int j = 0; j <= secuenciaPaciente.length() - minMatchLength; j++) {
+                int minimalGeneticMatch = 3;
+
+                for (int i = 0; i <= secuenciaVirus.length() - minimalGeneticMatch; i++) {
+                    for (int j = 0; j <= secuenciaPaciente.length() - minimalGeneticMatch; j++) {
                         int k = 0;
-                        while (k < minMatchLength &&
-                                secuenciaVirus.charAt(i + k) == secuenciaPaciente.charAt(j + k)) {
+                        while (k < minimalGeneticMatch && secuenciaVirus.charAt(i + k) == secuenciaPaciente.charAt(j + k)) {
                             k++;
                         }
-                        if (k == minMatchLength) {
+                        if (k == minimalGeneticMatch) {
                             int fin = i + k;
                             writer.write(nombreVirus + "," + i + "," + fin + "\n");
                             encontrado = true;
