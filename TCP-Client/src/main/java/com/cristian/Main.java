@@ -30,7 +30,7 @@ public class Main {
 
                 case "1":
                     System.out.println("\nFormato esperado:");
-                    System.out.println("REGISTER_PATIENT#id#Nombre#Apellido#Edad#Correo#Genero#Ciudad");
+                    System.out.println("REGISTER_PATIENT#id#Nombre#Apellido#Edad#Correo#Genero#Ciudad#Pais");
                     break;
 
                 case "2":

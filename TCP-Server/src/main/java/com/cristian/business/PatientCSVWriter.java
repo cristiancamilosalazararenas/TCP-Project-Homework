@@ -7,11 +7,11 @@ import java.io.IOException;
 public class PatientCSVWriter {
 
     public String writeFasta(String patientData){
-        File patientFolder = new File("patients");
+        File patientFolder = new File("pacientesRegistrados");
         if (!patientFolder.exists()) {
             patientFolder.mkdirs();
         }
-        try(FileWriter writer = new FileWriter("patients/patients.csv", true)){
+        try(FileWriter writer = new FileWriter("pacientesRegistrados/pacientes.csv", true)){
             writer.write(patientData + "\n");
             return "Paciente registrado exitosamente.";
         } catch (IOException e){
