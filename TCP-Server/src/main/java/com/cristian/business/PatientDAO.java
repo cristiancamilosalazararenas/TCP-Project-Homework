@@ -110,11 +110,15 @@ public class PatientDAO {
      * @return resultado de la operación de escritura
      */
     public String register(){
+        if (patientCSVWriter.patientExists(this.idNumber)){
+            return "Error: ya existe un paciente registrado con la identificación " + this.idNumber + ".";
+        }
+
         StringBuilder sb = new StringBuilder();
         sb.append(this.idNumber).append(",").append(this.name).append(",")
                 .append(this.lastname).append(",").append(this.age).append(",")
                 .append(this.email).append(",").append(this.gender).append(",")
                 .append(this.city).append(",").append(this.country);
-        return patientCSVWriter.writeFasta(sb.toString());
+        return patientCSVWriter.writeCSV(sb.toString());
     }
 }
