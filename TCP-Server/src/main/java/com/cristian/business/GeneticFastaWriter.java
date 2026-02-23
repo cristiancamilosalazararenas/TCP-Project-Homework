@@ -30,7 +30,7 @@ public class GeneticFastaWriter {
          *             <li>"ERROR#mensaje" si ocurrió un fallo</li>
          *         </ul>
          */
-        File patientFolder = new File("pacientes/" + documento);
+        File patientFolder = new File("pacientesDiagnlstico/" + documento);
         if (!patientFolder.exists()) {
             patientFolder.mkdirs();
         }
